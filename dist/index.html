@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="search-bar">
@@ -18,7 +19,7 @@
             <p><a href="{{href}}">{{title}}</a></p>
             <img src="{{thumbnail}}" alt="Food">
             <p>Ingredients</p>
-            <ul>
+            <ul class="ingredients">
                 {{#each ingredients}}
                 <li>{{this}}</li>
                 {{/each}}

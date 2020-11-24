@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    width: 7vw;
+    justify-self: center;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.ingredients {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.result {
+    background-color: burlywood;
+    height: fit-content;
+    width: 25vw;
+    display: grid;
+    margin: 1vw;
+    padding: 1vw;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+}

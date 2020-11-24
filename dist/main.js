@@ -6,3 +6,7 @@ $("button").on("click", function () {
         renderer.render(result)
     })
 })
+
+$("#results").on("click", "img", function () {
+    alert($(this).closest("div").find("li").html())
+})
