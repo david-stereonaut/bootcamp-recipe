@@ -22,8 +22,6 @@ app.get('/recipes/:ingredient', function (req, res) {
             thumbnail,
             href
         }))
-        console.log(data)
-
         res.send(data)
     })
 })
